@@ -6,7 +6,10 @@ const MyPosts = () => {
   return (
     <div>
       My posts
-      <div>New Post</div>
+      <div>
+        <textarea></textarea>
+        <button>Add new post</button>
+      </div>
       <div className={classes.posts}>
         <Post message="Hi, how are you?" likeCount="5" />
         <Post message="It is my first post!" likeCount="15" />
