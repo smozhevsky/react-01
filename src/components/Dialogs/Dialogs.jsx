@@ -16,12 +16,12 @@ const Dialogs = () => {
     { id: 3, message: "Yo!" },
   ];
 
-  let dialogsElements = dialogs.map((d) => (
-    <DialogItem name={d.name} id={d.id} />
+  let dialogsElements = dialogs.map((d, index) => (
+    <DialogItem name={d.name} id={d.id} key={index}/>
   ));
 
-  let messagesElements = messages.map((m) => {
-    return <Message message={m.message} />;
+  let messagesElements = messages.map((m, index) => {
+    return <Message message={m.message} key={index} />;
   });
 
   return (
