@@ -15,7 +15,7 @@ const MyPosts = (props) => {
         </div>
       </div>
       <div className={classes.posts}>
-        {props.posts.posts.map((p, index) => {
+        {props.posts.map((p, index) => {
           return (
             <Post message={p.message} likeCount={p.likesCount} key={index} />
           );
