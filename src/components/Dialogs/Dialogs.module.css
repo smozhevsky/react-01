@@ -12,7 +12,6 @@
 }
 
 .dialog {
-
 }
 
 .messages {
@@ -20,5 +19,11 @@
 }
 
 .message {
+  color: aliceblue;
+}
 
+.userAvatar {
+  width: 100px;
+  display: block;
+  padding-bottom: 10px;
 }
