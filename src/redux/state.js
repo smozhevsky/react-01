@@ -1,4 +1,5 @@
 import { rerenderEntireTree } from "../render";
+import { React } from "react";
 
 let state = {
   profilePage: {
